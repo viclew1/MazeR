@@ -76,7 +76,7 @@ public class FrameController {
             }
         });
 
-        this.jFrame = new JFrame("Mazer");
+        this.jFrame = new JFrame("MazeR");
         this.jFrame.setContentPane(this.mainPane);
         this.jFrame.setMinimumSize(this.mainPane.getMinimumSize());
         this.jFrame.setPreferredSize(this.mainPane.getPreferredSize());
@@ -101,7 +101,7 @@ public class FrameController {
     private void $$$setupUI$$$() {
         mainPane = new JPanel();
         mainPane.setLayout(new GridLayoutManager(2, 5, new Insets(0, 0, 0, 0), -1, -1));
-        mainPane.setMinimumSize(new Dimension(50, 50));
+        mainPane.setMinimumSize(new Dimension(600, 400));
         mainPane.setOpaque(true);
         mainPane.setPreferredSize(new Dimension(1080, 720));
         mazePanel = new JPanel();
